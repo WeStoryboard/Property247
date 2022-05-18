@@ -6,7 +6,7 @@ const Demo = () => {
     
 
 // //************************  GET EVENTS FROM HTML  *********************************** */
-    const phoneNo = document.getElementById('phone-no');
+    // const phoneNo = document.getElementById('phone-no');
     // const email = document.getElementById('email');
 
 
