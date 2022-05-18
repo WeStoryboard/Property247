@@ -13,7 +13,7 @@ const Demo = () => {
     // //**********************************  VALIDATIONS   *************************** */
     const validation = () => {
     let phoneVal = /^[0-9]+$/;
-    let emailVal = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    // let emailVal = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
 
     //                                 for phone number
@@ -24,10 +24,10 @@ const Demo = () => {
     }
 
     //                                 for email 
-    if(!emailVal.test(email.value)){
-        alert('Wrong Input OR field is empty');
-        return false;
-    }
+    // if(!emailVal.test(email.value)){
+    //     alert('Wrong Input OR field is empty');
+    //     return false;
+    // }
 
     return true;
     }
